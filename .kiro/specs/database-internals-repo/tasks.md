@@ -7,7 +7,7 @@
   - Set up Google Test framework integration
   - _Requirements: 7.1, 7.4_
 
-- [ ] 2. Implement core B+ Tree data structure
+- [-] 2. Implement core B+ Tree data structure
   - Create template-based BPlusTree class with configurable branching factor
   - Implement BPlusTreeNode abstract base class and derived InternalNode/LeafNode classes
   - Code insertion algorithm with node splitting and tree rebalancing
@@ -15,13 +15,13 @@
   - Add search functionality for individual key lookups
   - _Requirements: 1.1, 1.2, 1.3_
 
-- [ ] 2.1 Implement B+ Tree range query functionality
+- [x] 2.1 Implement B+ Tree range query functionality
   - Code range query method that traverses leaf node linked list
   - Implement leaf node linking during insertion and deletion operations
   - Add iterator interface for efficient range scanning
   - _Requirements: 1.4, 1.5_
 
-- [ ]* 2.2 Write B+ Tree unit tests
+- [x] 2.2 Write B+ Tree unit tests
   - Create comprehensive test cases for insertion, deletion, and search operations
   - Test range queries with various key distributions
   - Verify tree structure invariants after operations

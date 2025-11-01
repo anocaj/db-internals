@@ -7,7 +7,7 @@ An educational database internals repository designed to teach core data structu
 ```
 database-internals/
 ├── btree/              # B+ Tree implementation
-├── hash_index/         # Hash Index implementation  
+├── hash_index/         # Hash Index implementation
 ├── columnar_storage/   # Columnar Storage with compression
 ├── lsm/               # LSM Tree implementation
 ├── query_engine/      # Query execution engine

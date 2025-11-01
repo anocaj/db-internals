@@ -1,6 +1,6 @@
 # B+ Tree Module CMakeLists.txt
 
-# Create header-only library for now (will be populated in later tasks)
+# Create header-only library for B+ Tree implementation
 add_library(btree_lib INTERFACE)
 
 # Set include directories
