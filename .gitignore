@@ -58,3 +58,7 @@ coverage/
 # Temporary files
 *.tmp
 *.temp
+
+# Kiro IDE files
+.kiro/
+kiro
